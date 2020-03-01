@@ -1,0 +1,56 @@
+body {
+    max-width: 625px;
+    padding: 16px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+.main-content {
+    flex-grow: 1;
+}
+
+h1 {
+    color: #333333;
+    font-size: 64px;
+}
+
+header a{
+    color: #4d4c4c;
+    margin-right: 16px;
+    font-size: 20px;
+    text-decoration: none;
+}
+header {
+    margin-bottom: 32px;
+}
+
+footer {
+    color: #777777;
+    padding-top: 40px;
+    padding-bottom: 16px;
+    border-top: 1px solid #dddddd;
+}
+
+.profile-img {
+    width: 250px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    background-color: #888888;
+    border: 1px solid #888888;
+    color: white;
+    cursor: pointer;
+}
